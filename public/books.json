@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "A thousand Splendid Suns",
+        "description": "Fiction book",
+        "author": "Khaled Hossiani"
+    },
+    {
+        "id": 2,
+        "name": "The Kite Runner",
+        "description": "Fiction book",
+        "author": "Khaled Hossiani"
+    },
+    {
+        "id": 3,
+        "name": "And then there were none",
+        "description": "Thriller book",
+        "author": "Agatha Christie"
+    },
+    {
+        "id": 4,
+        "name": "Dark Matter",
+        "description": "Thriller book",
+        "author": "Blake Crouch"
+    },
+    {
+        "id": 5,
+        "name": "Murder on the orient express",
+        "description": "Thriller book",
+        "author": "Agatha Christie"
+    }
+]

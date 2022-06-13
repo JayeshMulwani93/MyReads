@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JayeshMulwani93/my-library/static/css/main.e4b2bb57.css",
+    "main.js": "/JayeshMulwani93/my-library/static/js/main.c632a814.js",
+    "index.html": "/JayeshMulwani93/my-library/index.html",
+    "main.e4b2bb57.css.map": "/JayeshMulwani93/my-library/static/css/main.e4b2bb57.css.map",
+    "main.c632a814.js.map": "/JayeshMulwani93/my-library/static/js/main.c632a814.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4b2bb57.css",
+    "static/js/main.c632a814.js"
+  ]
+}

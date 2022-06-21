@@ -2,7 +2,7 @@
 
 
 ### Summary 
-MyLibrary is created with React, React Hooks, React Router & Context API. Firebase has been used for backend and Fetch was used to interact with it. This project is developed only for learning purposes.
+MyReads is created with React, React Hooks, React Router & Context API. Firebase has been used for backend and Fetch was used to interact with it. This project is developed only for learning purposes.
 
 ### Motivation
 The purpose of this project was to learn the core concepts of React.

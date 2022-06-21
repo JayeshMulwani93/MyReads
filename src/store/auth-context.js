@@ -23,10 +23,14 @@ export const AuthContextProvider = (props) => {
   }, []);
 
   const onLoginHandler = (authProfile) => {
-    console.log("Login Completed!");
-    localStorage.setItem("userProfile", JSON.stringify(authProfile));
-    setIsLoggedIn(true);
-    setProfile(authProfile);
+    if (authProfile) {
+      console.log("Login Completed!");
+      console.info("AuthProfile is");
+      console.log(authProfile);
+      localStorage.setItem("userProfile", JSON.stringify(authProfile));
+      setIsLoggedIn(true);
+      setProfile(authProfile);
+    }
   };
 
   const onLogoutHandler = (authProfile) => {

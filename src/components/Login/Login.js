@@ -4,13 +4,19 @@ import { useContext } from "react";
 import AuthContext from "../../store/auth-context";
 import { useHistory } from "react-router-dom";
 import styles from "./Login.module.css";
+import * as configClass from "../../config/GitHubConfig";
 
 const Login = () => {
   const context = useContext(AuthContext);
   const history = useHistory();
-  const responseGoogle = (response) => {
+
+  const successResponse = (response) => {
     context.onLogin(response.profileObj);
     history.push("/books");
+  };
+
+  const failureResponse = (response) => {
+    console.log("Error while logging in with Google!");
   };
 
   return (
@@ -19,10 +25,10 @@ const Login = () => {
         <div className={styles.login}>
           <h1>Please Login to access My library</h1>
           <GoogleLogin
-            clientId="181690030512-r2lu1t2gbesfae1ah3qkn4lgj34psu0r.apps.googleusercontent.com"
+            clientId={configClass.GOOGLE_CLIENT_ID}
             buttonText="Login with Google"
-            onSuccess={responseGoogle}
-            onFailure={responseGoogle}
+            onSuccess={successResponse}
+            onFailure={failureResponse}
             cookiePolicy={"single_host_origin"}
           />
         </div>

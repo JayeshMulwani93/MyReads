@@ -1,0 +1,12 @@
+.basic {
+  text-align: center;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 6px;
+}
+
+.item p {
+  margin: 0;
+  margin-bottom: 0.25rem;
+}

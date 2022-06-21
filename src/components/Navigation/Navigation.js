@@ -4,11 +4,11 @@ import styles from "./Navigation.module.css";
 import { useContext } from "react";
 import { useHistory } from "react-router-dom";
 import AuthContext from "../../store/auth-context";
+import * as configClass from "../../config/GitHubConfig";
 
 const Navigation = () => {
   const context = useContext(AuthContext);
   const history = useHistory();
-
   const logoutHandler = () => {
     context.onLogout();
     history.push("/");
@@ -22,14 +22,18 @@ const Navigation = () => {
           <li>
             <NavLink to={"/books"}>Books</NavLink>
           </li>
-          <li>
-            <NavLink to={"/profile"}>Profile</NavLink>
-          </li>
-          <li>
-            <NavLink to="/" onClick={logoutHandler} className="btn">
-              Logout
-            </NavLink>
-          </li>
+          {configClass.IS_GOOGLE_LOGIN_ENABLED && (
+            <React.Fragment>
+              <li>
+                <NavLink to={"/profile"}>Profile</NavLink>
+              </li>
+              <li>
+                <NavLink to="/" onClick={logoutHandler} className="btn">
+                  Logout
+                </NavLink>
+              </li>
+            </React.Fragment>
+          )}
         </ul>
       </div>
     </header>

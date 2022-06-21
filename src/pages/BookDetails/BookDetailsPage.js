@@ -7,7 +7,6 @@ import BookReviews from "../../components/Reviews/BookReviews/BookReviews";
 import { getSingleBook } from "../../lib/api";
 import useHttp from "../../hooks/use-http";
 import LoadingSpinner from "../../components/UI/LoadingSpinner/LodingSpinner";
-import AddBookReview from "../../components/Reviews/AddBookReview/AddBookReview";
 const BookDetailsPage = () => {
   const { bookId } = useParams();
   const {

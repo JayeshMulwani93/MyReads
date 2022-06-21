@@ -1,8 +1,8 @@
 import AuthContext from "../../store/auth-context";
 import styles from "./UserProfile.module.css";
-import { useHistory } from "react-router-dom";
 import { useContext } from "react";
 import React from "react";
+
 const UserProfile = () => {
   const context = useContext(AuthContext);
   const profile = context.profile;

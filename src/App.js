@@ -3,17 +3,18 @@ import { Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
 import "./App.css";
 import Books from "./pages/Books/BooksPage";
-import About from "./pages/About/AboutPage";
 import Login from "./components/Login/Login";
 import { useContext } from "react";
 import AuthContext from "./store/auth-context";
 import Navigation from "./components/Navigation/Navigation";
 import ProfilePage from "./pages/Profile/ProfilePage";
 import BookDetailsPage from "./pages/BookDetails/BookDetailsPage";
+import * as configClass from "./config/GitHubConfig";
+import HomePage from "./pages/Home/HomePage";
 
 function App() {
   const ctx = useContext(AuthContext);
-  if (ctx.isLoggedIn) {
+  if (!configClass.IS_GOOGLE_LOGIN_ENABLED || ctx.isLoggedIn) {
     return (
       <div>
         <Navigation />
@@ -24,8 +25,13 @@ function App() {
           <Route path="/books/:bookId">
             <BookDetailsPage />
           </Route>
-          <Route path="/profile" exact>
-            <ProfilePage />
+          {configClass.IS_GOOGLE_LOGIN_ENABLED && (
+            <Route path="/profile" exact>
+              <ProfilePage />
+            </Route>
+          )}
+          <Route path="/">
+            <HomePage />
           </Route>
         </Switch>
       </div>

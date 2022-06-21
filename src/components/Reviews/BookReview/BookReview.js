@@ -1,4 +1,3 @@
-import { Book } from "@material-ui/icons";
 import React from "react";
 import styles from "./BookReview.module.css";
 

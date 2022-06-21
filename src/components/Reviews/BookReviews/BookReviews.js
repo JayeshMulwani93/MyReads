@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { getAllReviews } from "../../../lib/api";
 import useHttp from "../../../hooks/use-http";
 import { useEffect } from "react";

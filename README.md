@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![HitCount](https://hits.dwyl.com/JayeshMulwani93/MyReads.svg?style=flat-square)](http://hits.dwyl.com/JayeshMulwani93/MyReads)
 
 ### Demo

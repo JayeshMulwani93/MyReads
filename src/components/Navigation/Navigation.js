@@ -16,7 +16,7 @@ const Navigation = () => {
 
   return (
     <header className={styles.header}>
-      <h2 className={styles.logo}>My Library</h2>
+      <h2 className={styles.logo}>My Reads</h2>
       <div className={styles.nav}>
         <ul>
           <li>

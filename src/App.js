@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Redirect, Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
 import "./App.css";
 import Books from "./pages/Books/BooksPage";
@@ -19,6 +19,9 @@ function App() {
       <div>
         <Navigation />
         <Switch>
+          <Route path="/" exact>
+            <HomePage />
+          </Route>
           <Route path="/books" exact>
             <Books />
           </Route>
@@ -30,8 +33,9 @@ function App() {
               <ProfilePage />
             </Route>
           )}
-          <Route path="/">
-            <HomePage />
+
+          <Route path="*">
+            <Redirect to="/" />
           </Route>
         </Switch>
       </div>

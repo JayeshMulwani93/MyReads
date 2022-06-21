@@ -12,7 +12,7 @@ const UserProfile = () => {
       <div className={styles.profile}>
         <p>Name: {profile.name}</p>
         <p>Email: {profile.email}</p>
-        <img src={profile.imageUrl}></img>
+        <img src={profile.imageUrl} alt="Profile"></img>
       </div>
     </React.Fragment>
   );

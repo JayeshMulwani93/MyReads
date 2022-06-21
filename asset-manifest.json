@@ -1,13 +1,13 @@
 {
-  "main.css": "/my-library/static/css/main.8e0a19c2.chunk.css",
-  "main.js": "/my-library/static/js/main.e67af456.chunk.js",
-  "main.js.map": "/my-library/static/js/main.e67af456.chunk.js.map",
-  "static/js/1.dbd5fc3b.chunk.js": "/my-library/static/js/1.dbd5fc3b.chunk.js",
-  "static/js/1.dbd5fc3b.chunk.js.map": "/my-library/static/js/1.dbd5fc3b.chunk.js.map",
-  "runtime~main.js": "/my-library/static/js/runtime~main.a5a5c28b.js",
-  "runtime~main.js.map": "/my-library/static/js/runtime~main.a5a5c28b.js.map",
-  "static/css/main.8e0a19c2.chunk.css.map": "/my-library/static/css/main.8e0a19c2.chunk.css.map",
-  "index.html": "/my-library/index.html",
-  "precache-manifest.e25f09174fd455c5df27d7b3234235cd.js": "/my-library/precache-manifest.e25f09174fd455c5df27d7b3234235cd.js",
-  "service-worker.js": "/my-library/service-worker.js"
+  "main.css": "/MyReads/static/css/main.8e0a19c2.chunk.css",
+  "main.js": "/MyReads/static/js/main.e67af456.chunk.js",
+  "main.js.map": "/MyReads/static/js/main.e67af456.chunk.js.map",
+  "static/js/1.dbd5fc3b.chunk.js": "/MyReads/static/js/1.dbd5fc3b.chunk.js",
+  "static/js/1.dbd5fc3b.chunk.js.map": "/MyReads/static/js/1.dbd5fc3b.chunk.js.map",
+  "runtime~main.js": "/MyReads/static/js/runtime~main.970c0060.js",
+  "runtime~main.js.map": "/MyReads/static/js/runtime~main.970c0060.js.map",
+  "static/css/main.8e0a19c2.chunk.css.map": "/MyReads/static/css/main.8e0a19c2.chunk.css.map",
+  "index.html": "/MyReads/index.html",
+  "precache-manifest.8a96b8b6f230301e2ae4b6f1c86fe108.js": "/MyReads/precache-manifest.8a96b8b6f230301e2ae4b6f1c86fe108.js",
+  "service-worker.js": "/MyReads/service-worker.js"
 }

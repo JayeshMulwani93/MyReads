@@ -10,7 +10,7 @@ The purpose of this project was to learn the core concepts of React.
 ### Install dependencies
 npm install
 
-### Run MyLibrary project
+### Run MyReads project
 npm start
 
 ### Built with

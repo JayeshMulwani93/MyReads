@@ -1,3 +1,5 @@
+[![HitCount](https://hits.dwyl.com/JayeshMulwani93/MyReads.svg?style=flat-square)](http://hits.dwyl.com/JayeshMulwani93/MyReads)
+
 ### Demo
 
 [MyReads](https://jayeshmulwani93.github.io/MyReads)
